@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cc-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.Main1Body {
+  background-color: whitesmoke;
+  position: relative;
+  height: 150vh;
+
+  & .Main1BodyContent {
+    background-color: white;
+    width: 550px;
+    padding: 12px;
+    margin: 0 auto;
+    position: absolute;
+    left: 28rem;
+    top: -2rem;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+
+    h1 {
+      padding-left: 1rem;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 0.8rem;
+    }
+
+    h6 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+    }
+
+    & .MainBodyButton {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 2rem;
+      margin-bottom: 2rem;
+
+      & .Bt1 {
+        border: none;
+        padding: 12px;
+        width: 10rem;
+        border-radius: 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        background-color: hsl(176, 50%, 47%);
+        color: white;
+      }
+
+      & .BookMark {
+        position: relative;
+        width: 9rem;
+        height: 2.5rem;
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 21px;
+        border: none;
+        background-color: whitesmoke;
+        border-top-right-radius: 21px;
+        border-bottom-right-radius: 21px;
+        text-align: end;
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+      }
+
+      ::placeholder {
+        margin-right: 1rem;
+      }
+
+      & .Bt2 {
+        position: absolute;
+        left: 22.8rem;
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+        border: none;
+        background-color: hsl(0, 0%, 48%);
+
+        img {
+          width: 38px;
+        }
+      }
+    }
+  }
+}
+
+.Main1Body1 {
+  background-color: white;
+  max-width: 12rem;
+  padding: 12px;
+  margin: 0 auto;
+  position: absolute;
+  left: 29rem;
+  top: 34rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+
+  & .Main1BodyContent1 {
+    margin-left: 5.2rem;
+
+    hr {
+      width: 1px;
+      height: 44px;
+      background: hsl(176, 50%, 47%);
+      margin-left: 2rem;
+    }
+
+    p {
+      font-size: 10px;
+      font-weight: 200;
+    }
+  }
+
+  input {
+    height: 0.5rem;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(235, 234, 234);
+    position: relative;
+  }
+
+  button {
+    position: absolute;
+    left: 4.8rem;
+    top: 7.2rem;
+    width: 18rem;
+    height: 6px;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 12px;
+    border: none;
+  }
+}
